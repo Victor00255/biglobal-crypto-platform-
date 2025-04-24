@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Crypto Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f9f9f9; }
+    h1 { color: #111; }
+    .section { margin-bottom: 2rem; }
+    input, button { padding: 0.5rem; margin-top: 0.5rem; display: block; }
+    .vip, .invite, .staking { background: #e7f4ff; padding: 1rem; border-radius: 8px; }
+    .success { color: green; font-weight: bold; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Global Crypto Platform</h1>
+
+  <div class="section">
+    <h2>Wallet Addresses</h2>
+    <p><strong>USDT (ERC20):</strong> 0x194ca6d49c494b7f04741148cfb4907576bd6bbf</p>
+    <p><strong>TRX:</strong> TFVo4aJVzwYzNVhKfsYGwppRNQoBPeSNtA</p>
+    <p><strong>BTC:</strong> 18L4B5F76XqsqRkDVDoqJyv63Ewc5xwtMh</p>
+  </div>
+
+  <div class="section">
+    <h2>Make a Deposit</h2>
+    <form id="deposit-form">
+      <label>Enter deposit amount (USD):
+        <input type="number" id="deposit-amount" required min="80" />
+      </label>
+      <button type="submit">Deposit</button>
+    </form>
+    <div id="deposit-msg" class="success"></div>
+  </div>
+
+  <div class="section vip">
+    <h2>VIP Access</h2>
+    <p>Become VIP by depositing $500. Instantly receive $700 credit and enjoy unlimited withdrawals.</p>
+  </div>
+
+  <div class="section invite">
+    <h2>Invite Friends</h2>
+    <p>Earn $7 per invite. Invite more than 10 friends and earn up to $1000!</p>
+  </div>
+
+  <div class="section staking">
+    <h2>Stake & Earn</h2>
+    <p>Buy and stake 200+ cryptocurrencies and earn up to <strong>88% profit annually</strong>.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
